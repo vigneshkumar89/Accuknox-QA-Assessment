@@ -1,0 +1,52 @@
+
+  <html>
+    <head>
+      <style>
+        table {
+          border-collapse: collapse;
+          width: 100%;
+        }
+        th, td {
+          border: 1px solid black;
+          padding: 8px;
+          text-align: left;
+        }
+        th {
+          background-color: #f2f2f2;
+        }
+        .pass {
+          background-color: #9CCC65;
+        }
+        .fail {
+          background-color: #EF9A9A;
+        }
+        .error {
+          background-color: #FFEB3B;
+        }
+      </style>
+    </head>
+    <body>
+      <h2>Selenium Test Results</h2>
+      <table>
+        <tr>
+          <th>Test Name</th>
+          <th>Status</th>
+          <th>Message</th>
+        </tr>
+  
+      <tr class="pass">
+        <td>Frontend and Backend Integration Test</td>
+        <td>Pass</td>
+        <td>Expected: 'Hello from the Backend!', Actual: 'Hello from the Backend!'</td>
+      </tr>
+    
+      <tr class="pass">
+        <td>Backend API Service Test</td>
+        <td>Pass</td>
+        <td>Expected status: 200 and message: 'Hello from the Backend!', Actual status: 200 and message: Hello from the Backend!</td>
+      </tr>
+    
+      </table>
+    </body>
+  </html>
+  
